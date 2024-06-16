@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Container, Heading, Button, VStack, HStack, Input, Select, FormControl, FormLabel, useToast } from '@chakra-ui/react';
+import { Container, Heading, Button, VStack, HStack, Input, Select, FormControl, FormLabel, useToast, Text } from '@chakra-ui/react';
 import { useEvents, useAddEvent, useUpdateEvent, useDeleteEvent, useVenues } from '../integrations/supabase/index.js';
 
 const Events = () => {
